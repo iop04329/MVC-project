@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebApplication1.Models.tToDo>
+
+@{
+    ViewBag.Title = "Tsai";
+}
+
+<h2>Tsai</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            編號
+        </th>
+        <th>
+            標題
+        </th>
+        <th>
+            圖示
+        </th>
+        <th>
+            結案日
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.fid
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ftitle)
+        </td>
+        <td>
+            <img src="~/image/@item.fimage" width="32">
+        </td>
+        <td>
+            @DateTime.Parse(item.fDate.ToString()).ToShortDateString()
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.fid }) |
+            @Html.ActionLink("Details", "Details", new { id = item.fid }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.fid }
+                , new { onclick="return confirm('確定要刪除嗎?')"})
+            @*@Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+        </td>
+    </tr>
+}
+
+</table>
