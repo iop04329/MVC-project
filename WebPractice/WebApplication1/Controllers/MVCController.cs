@@ -16,5 +16,18 @@ namespace WebApplication1.Controllers
             TempData["C"] = "測試TempData傳輸資料到前端";
             return View();
         }
+        public string ActionTest()  //練習控制器與動作方法
+        {
+            //return "OK";
+            string show = "";
+            for(int i = 0; i <= 3; i++)
+            {
+                if(i == 3)
+                    show += string.Format("<img src ='../image/{0}.jpg' width='150'>", i);
+                else
+                    show += string.Format("<img src ='../image/{0}.png' width='150'>", i);
+            }
+            return show;
+        }
     }
 }

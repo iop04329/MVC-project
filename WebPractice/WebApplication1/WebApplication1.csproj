@@ -216,6 +216,7 @@
     <Content Include="Views\Home\Tsai.cshtml" />
     <Content Include="Views\Home\Create.cshtml" />
     <Content Include="Views\Home\Edit.cshtml" />
+    <Content Include="Views\MVC\ActionTest.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
