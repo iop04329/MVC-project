@@ -4,7 +4,7 @@ My first MVC project
 - [x] 1. First Install Visual studio 2019
 - [x] 2. choose install ASP.Net與網頁程式開發&.Net桌面開發  個別元件:LINQ to SQL
 - [x] 3. 影片學習1-1 Url:https://www.youtube.com/watch?v=9spaHik87-A
-- [x] 4. 影片教學1-2 Url:https://www.youtube.com/watch?v=BFkIFg1iFLo
+- [x] 4. 影片教學1-2 Url:https://www.youtube.com/watch?v=BFkIFg1iFLo  
 DTC
 - [x] 5. 影片教學ASP NET MVC待辦事項CRUD(一) 
 Url:https://www.youtube.com/watch?v=GhwVSzJZoHk&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn
