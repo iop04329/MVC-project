@@ -168,6 +168,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="image\0.png" />
     <Content Include="image\1.png" />
+    <Content Include="image\2.png" />
+    <Content Include="image\3.jpg" />
     <Content Include="Models\dbToDoModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>dbToDoModel.Context.cs</LastGenOutput>
@@ -217,6 +219,8 @@
     <Content Include="Views\Home\Create.cshtml" />
     <Content Include="Views\Home\Edit.cshtml" />
     <Content Include="Views\MVC\ActionTest.cshtml" />
+    <Content Include="Views\MVC\ShowImage.cshtml" />
+    <Content Include="Views\MVC\Index2.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
