@@ -15,3 +15,5 @@ Nuget上網搜尋問題解決:https://dotblogs.com.tw/OldNick/2017/03/24/162927
 Url:https://www.youtube.com/watch?v=GhwVSzJZoHk&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn
 - [x] 4. 影片教學ASP.NET MVC 控制器與動作方法
 Url:https://www.youtube.com/watch?v=li9sMIdNEho&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn&index=4
+- [x] 5. 影片教學ASP.NET MVC-模型繫結
+Url:https://www.youtube.com/watch?v=li9sMIdNEho&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn&index=5
