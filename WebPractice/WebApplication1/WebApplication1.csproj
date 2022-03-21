@@ -221,8 +221,11 @@
     <Content Include="Views\MVC\ActionTest.cshtml" />
     <Content Include="Views\MVC\ShowImage.cshtml" />
     <Content Include="Views\MVC\Index2.cshtml" />
+    <Content Include="Views\MVC\FileUpload.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Photos\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

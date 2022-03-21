@@ -17,3 +17,6 @@ Url:https://www.youtube.com/watch?v=GhwVSzJZoHk&list=PLygCabSM5MspocL_cCQtf27E3a
 Url:https://www.youtube.com/watch?v=li9sMIdNEho&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn&index=4
 - [x] 5. 影片教學ASP.NET MVC-模型繫結
 Url:https://www.youtube.com/watch?v=li9sMIdNEho&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn&index=5
+- [x] 6. 影片教學ASP.NET MVC-檔案上傳
+Url:https://www.youtube.com/watch?v=Ua-qf7H3MvY&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn&index=5
+

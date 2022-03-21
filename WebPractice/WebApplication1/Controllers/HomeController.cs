@@ -10,6 +10,7 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        //Home就是 代辦事項練習1和2
         dbToDoEntities db = new dbToDoEntities();
         public ActionResult Index()
         {
@@ -60,6 +61,7 @@ namespace WebApplication1.Controllers
             db.SaveChanges();
             return RedirectToAction("Tsai");
         }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
