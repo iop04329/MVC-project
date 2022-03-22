@@ -178,3 +178,7 @@ C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\WebPractice\WebApplication1\obj\De
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\WebPractice\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\WebPractice\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\WebPractice\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\WebPractice\WebApplication1\bin\PagedList.dll
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\WebPractice\WebApplication1\bin\PagedList.Mvc.dll
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\WebPractice\WebApplication1\bin\PagedList.xml
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\WebPractice\WebApplication1\bin\PagedList.Mvc.xml

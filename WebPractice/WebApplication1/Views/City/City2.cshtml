@@ -1,0 +1,49 @@
+﻿@using PagedList.Mvc
+@using PagedList
+@model IPagedList<WebApplication1.Models.WorldwideCity>
+
+@{
+    ViewBag.Title = "City2";
+}
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+<h2>City</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => Model.FirstOrDefault().Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Address)
+        </th>
+        <th>圖示</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        string imgsrc = item.Id + ".jpg";
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                <img src="~/City/@imgsrc" width="200" />
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+
+@Html.PagedListPager(Model,page =>Url.Action("City2",new { page }))
