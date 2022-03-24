@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 using WebApplication1.Models;
 using PagedList;
+using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
@@ -48,6 +49,44 @@ namespace WebApplication1.Controllers
             }
             var pageList = list.ToPagedList(pagecurrent, pagesize);
             return View(pageList);
+        }
+
+        //ASP NET MVC導讀系列 LINQ查詢運算式
+        //網址為:https://localhost:44336/City/ShowArrayAsc
+        public string ShowArrayAsc()
+        {
+            int[] score = new int[] { 47, 39, 100, 98, 77 };
+            var result = from m in score
+                         orderby m ascending
+                         select m;
+            string show = "遞增排序 :";
+            foreach(var m in result)
+            {
+                show += m + ",";
+            }
+            show += "<br>";
+            show += "總合:" + result.Sum();
+            return show;
+        }
+        //網址為:https://localhost:44336/City/ShowProduct
+        public string ShowProduct()
+        {
+            Product[] p = new Product[]
+            {
+                new Product(){編號="G01",品名="火影忍者",單價=560},
+                new Product(){編號="G02",品名="航海王",單價=60},
+                new Product(){編號="G03",品名="七龍珠",單價=180}
+            };
+            var result = from m in p
+                         where m.單價 >= 300
+                         orderby m.單價 descending
+                         select m;
+            string show = "";
+            foreach(var item in result)
+            {
+                show += string.Format("<p>{0},{1},{2}</p>", item.編號, item.品名, item.單價);
+            }
+            return show;
         }
     }
 }

@@ -23,3 +23,9 @@ Url:https://www.youtube.com/watch?v=Ua-qf7H3MvY&list=PLygCabSM5MspocL_cCQtf27E3a
 Url:https://www.youtube.com/watch?v=kZasZccu0MU&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn&index=6
 - [x] 8. 影片教學ASP NET MVC導讀系列 資料分頁
 Url:https://www.youtube.com/watch?v=WHCWWxFLhko&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn&index=8
+- [x] 9. 影片教學ASP NET MVC導讀系列 LINQ查詢運算式
+Url:https://www.youtube.com/watch?v=uwrh0UOEu24&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn&index=8
+
+
+
+
