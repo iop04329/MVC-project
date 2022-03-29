@@ -245,6 +245,7 @@
     <Content Include="Views\MVC\FileUpload.cshtml" />
     <Content Include="Views\City\City.cshtml" />
     <Content Include="Views\City\City2.cshtml" />
+    <Content Include="Views\City\HTMLHelper.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Photos\" />

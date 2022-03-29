@@ -88,5 +88,12 @@ namespace WebApplication1.Controllers
             }
             return show;
         }
+
+        //ASP NET MVC導讀系列 HTML Helper
+        //網址為:https://www.youtube.com/watch?v=AaZOHBgKvUk&list=PLygCabSM5MspocL_cCQtf27E3aYojmdgn&index=9
+        public ActionResult HTMLHelper()
+        {
+            return View();
+        }
     }
 }

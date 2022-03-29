@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "HTMLHelper";
+}
+
+<h2>HTMLHelper</h2>
+
+@using (Html.BeginForm("Show", "Default", FormMethod.Post, null))
+{
+    <p>
+        姓名:
+        @Html.TextBox("txtName",null,new { placeholder = "請輸入姓名"})
+    </p>
+    <p>
+        生日:@Html.TextBox("txtBirthday", null, new { type = "date"})
+    </p>
+    <p>@Html.CheckBox("chk01",true,null) 學生</p>
+    <p>@Html.CheckBox("chk02",false,null) 上班族</p>
+    //下面練習測試用
+    <p>@Html.Label("lb1","自行建立")</p>
+    <input type="submit" value="傳送" />
+}
