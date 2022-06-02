@@ -159,7 +159,6 @@ C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter2\WebApplication1\bin\zh-Ha
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter2\WebApplication1\bin\zh-Hant\System.Web.WebPages.resources.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter2\WebApplication1\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter2\WebApplication1\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
-C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter2\WebApplication1\obj\Debug\Chapter2.csprojAssemblyReference.cache
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter2\WebApplication1\obj\Debug\Chapter2.csproj.CoreCompileInputs.cache
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter2\WebApplication1\obj\Debug\Chapter2.csproj.CopyComplete
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter2\WebApplication1\obj\Debug\WebApplication1.dll
