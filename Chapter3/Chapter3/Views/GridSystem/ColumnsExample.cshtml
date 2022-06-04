@@ -1,0 +1,57 @@
+﻿@*3-6 Grid網格練習*@
+@using System.Text;
+@{ 
+    ViewBag.Title = "Grid Columns Example";
+
+    StringBuilder sb = new StringBuilder();
+    sb.Append("天地玄黃 宇宙洪荒 日月盈昃 辰宿列張 寒來暑往");
+    sb.Append("秋收冬藏 閏餘成歲 律呂調陽 雲騰致雨 露結為霜");
+    string article = sb.ToString();
+}
+<div class="row">
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading"><h4>神力女超人</h4></div>
+            <div class="panel-body">
+                @*class="img-responsive center-block"讓圖片自適應panel大小*@
+                <img src="~/Assets/images/wonderwoman.jpg" class="img-responsive center-block" />
+                <p class="text-success">
+                    《神力女超人》（英語：Wonder Woman）是一部於2017年上映的美國超級英雄電影，改編自DC漫畫旗下的同名角色。本片為DC擴展宇宙的第四部作品。由派蒂·珍金斯所執導，電影主演包括蓋兒·加朵、克里斯·潘恩、羅蘋·萊特、丹尼·休斯頓、大衛·休利斯、康妮·尼爾森以及伊蓮娜·安娜雅。
+                </p>
+            </div>
+            <div class="panel-footer alert-danger">蓋兒˙加朵主演</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-success">
+            <div class="panel-heading"><h4>冰與火之歌</h4></div>
+            <div class="panel-body">
+                @*class="img-responsive center-block"讓圖片自適應panel大小*@
+                <img src="~/Assets/images/GameOfThrones.jpg" class="img-responsive center-block" />
+                <p class="text-success">
+                    《冰與火之歌》是由美國作家喬治·R·R·馬丁所著的史詩奇幻小說系列。按照作者計畫，該系列將有7部，目前出版至第5部。《冰與火之歌》不同於古典奇幻作品中常有的善惡分明、充滿魔法、並有許多非人種族參與故事的情節，而是以較寫實的方法去呈現故事中的世界。 2011年本作被HBO改編成電視系列劇《冰與火之歌：權力遊戲》。
+                </p>
+            </div>
+            <div class="panel-footer alert-danger"> 瓊恩·雪諾 丹妮莉絲·坦格利安 艾德·史塔克 提利昂·蘭尼斯特 ...等等</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-danger">
+            <div class="panel-heading"><h4>雷神索爾</h4></div>
+            <div class="panel-body">
+                @*class="img-responsive center-block"讓圖片自適應panel大小*@
+                <img src="~/Assets/images/GodOfThrone.jpg" class="img-responsive center-block" />
+                <p class="text-success">
+                    《雷神索爾：愛與雷霆》是一部2022年美國超級英雄電影，改編自漫威漫畫旗下角色雷神索爾，由漫威影業製作、華特迪士尼影業發行。電影為2017年電影《雷神索爾3：諸神黃昏》的續集，「漫威電影宇宙」的第29部電影作品，屬於漫威電影宇宙第四階段。
+                </p>
+            </div>
+            <div class="panel-footer alert-danger">克里斯˙漢斯沃主演</div>
+        </div>
+    </div>
+</div>
+<div class="alert alert-info">將版面等分為兩欄</div>
+<div class="row">
+    <div class="col-md-6"><pre>@article</pre></div>
+    <div class="col-md-6"><pre>@article</pre></div>
+</div>
+
