@@ -76,8 +76,8 @@ C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter4\Razor\Razor\bin\zh-Hant\S
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter4\Razor\Razor\bin\zh-Hant\System.Web.WebPages.resources.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter4\Razor\Razor\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter4\Razor\Razor\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
-C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter4\Razor\Razor\obj\Debug\Razor.csprojAssemblyReference.cache
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter4\Razor\Razor\obj\Debug\Razor.csproj.CoreCompileInputs.cache
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter4\Razor\Razor\obj\Debug\Razor.csproj.CopyComplete
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter4\Razor\Razor\obj\Debug\Razor.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter4\Razor\Razor\obj\Debug\Razor.pdb
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter4\Razor\Razor\obj\Debug\Razor.csprojAssemblyReference.cache

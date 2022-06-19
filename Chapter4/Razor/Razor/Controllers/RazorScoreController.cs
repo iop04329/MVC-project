@@ -46,5 +46,24 @@ namespace Razor.Controllers
             ViewBag.TopId = Convert.ToInt32(topId);
             return View(students);
         }
+        public ActionResult GlobalRazorHelper()
+        {
+            //找出總分最高者之Id
+            int topId = 0;
+            int topscore = 0;
+
+            foreach (var stu in students)
+            {
+                stu.Total = stu.Chinese + stu.English + stu.Math;
+                if (topscore < stu.Total)
+                {
+                    topId = stu.Id;
+                    topscore = stu.Total;
+                }
+            }
+            //將最高分學生Id儲存到ViewBag，傳遞給View
+            ViewBag.TopId = Convert.ToInt32(topId);
+            return View(students);
+        }
     }
 }

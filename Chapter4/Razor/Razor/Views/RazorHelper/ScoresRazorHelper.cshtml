@@ -1,0 +1,110 @@
+﻿@using Razor.Models;
+@model IEnumerable<Razor.Models.Student>
+
+@{
+    ViewBag.Title = "學生期中考成績";
+    //計算所有總分
+    ((List<Student>)Model).ForEach(x => x.Total = x.Chinese + x.English + x.Math);
+    //找出最高總分
+    int topscore = Model.Max(s => s.Chinese + s.English + s.Math);
+}
+
+<h2>學生期中考成績</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.Id)</th>
+            <th>@Html.DisplayNameFor(m => m.Name)</th>
+            <th>@Html.DisplayNameFor(m => m.Chinese)</th>
+            <th>@Html.DisplayNameFor(m => m.English)</th>
+            <th>@Html.DisplayNameFor(m => m.Math)</th>
+            <th>@Html.DisplayNameFor(m => m.Total)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+            var total = m.Chinese + m.English + m.Math;
+            <tr>
+                <td>@Html.DisplayFor(x => m.Id)</td>
+                <td>@Html.DisplayFor(x => m.Name)</td>
+                @*中文*@
+                @*helperm用法*@
+                @DisplayScore(m.Chinese)
+                @DisplayScore(m.English)
+                @DisplayScore(m.Math)
+                <!--顯示總分-->
+                @*LINQ用法*@
+                @if (m.Total == topscore)
+                {
+                    <!--總分最高者-->
+                    <td class="top1">@Html.DisplayFor(x => m.Total)</td>
+                }
+                else
+                {
+                    <td>@Html.DisplayFor(x => m.Total)</td>
+                }
+                @*<td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </td>*@
+            </tr>
+        }
+    </tbody>
+
+</table>
+@*@helper用法 (類似function) *@
+@helper DisplayScore(int score)
+{
+    if (score < 60)
+    {
+        <td class="poor">@score</td>
+    }
+    else if (score >= 95)
+    {
+        <td class="excellent">@score</td>
+    }
+    else
+    {
+        <td>@score</td>
+    }
+}
+@section topCSS{
+    <style type="text/css">
+        /*設定Table欄位標題顏色*/
+        th {
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        /*設定Table資料列Hover時的光棒效果*/
+        .table > tbody > tr:hover {
+            background-color: antiquewhite !important;
+        }
+        /*成績不及格之CSS*/
+        .poor {
+            color: white !important;
+            background-color: red !important;
+        }
+        /*成績優秀者之CSS*/
+        .excellent {
+            background-color: aqua !important
+        }
+        /*總分之第一名者*/
+        .top1::after {
+            background-color: yellow !important;
+            border: 2px dashed black !important;
+            font-weight: 900;
+            font-size: 1.2em;
+        }
+
+        .top1::after {
+            content: '(總分排名第一)'
+        }
+    </style>
+}
