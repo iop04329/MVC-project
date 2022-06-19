@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<Razor.Models.Student>
 
 @{
-    ViewBag.Title = "ScoresRazor";
+    ViewBag.Title = "學生期中考成績";
 }
 
-<h2>ScoresRazor</h2>
+<h2>學生期中考成績</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -27,6 +27,10 @@
         <tr>
             <td>@Html.DisplayFor(x => m.Id)</td>
             <td>@Html.DisplayFor(x => m.Name)</td>
+            @*helperm用法*@
+            @*@DisplayScore(m.Chinese)
+            @DisplayScore(m.English)
+            @DisplayScore(m.Math)*@
             @*中文*@
             @if (m.Chinese < 60)
             {
@@ -44,7 +48,7 @@
             {
                 <td class="poor">@Html.DisplayFor(x => m.English)</td>
             }
-            else if (m.Chinese >= 95)
+            else if (m.English >= 95)
             {
                 <td class="excellent">@Html.DisplayFor(x => m.English)</td>
             }
@@ -56,7 +60,7 @@
             {
                 <td class="poor">@Html.DisplayFor(x => m.Math)</td>
             }
-            else if (m.Chinese >= 95)
+            else if (m.Math >= 95)
             {
                 <td class="excellent">@Html.DisplayFor(x => m.Math)</td>
             }
@@ -75,13 +79,29 @@
                 <td>@Html.DisplayFor(x => m.Total)</td>
             }
             @*<td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-            </td>*@
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+        </td>*@
         </tr>
         }
     </tbody>
+    @*@helper用法 (類似function) *@
+    @helper DisplayScore(int score)
+    {
+        if (score < 60)
+        {
+            <td class="poor">@score</td>
+        }
+        else if (score >= 95)
+        {
+            <td class="excellent">@score</td>
+        }
+        else
+        {
+            <td>@score</td>
+        }
+    }
 
 </table>
 
