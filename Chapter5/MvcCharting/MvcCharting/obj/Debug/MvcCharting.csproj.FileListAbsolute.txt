@@ -48,6 +48,8 @@ C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\b
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\roslyn\VBCSCompiler.exe
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\Antlr3.Runtime.dll
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\EntityFramework.dll
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\EntityFramework.SqlServer.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\Newtonsoft.Json.dll
@@ -59,6 +61,8 @@ C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\b
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\System.Web.WebPages.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\System.Web.WebPages.Razor.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\WebGrease.dll
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\EntityFramework.xml
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\EntityFramework.SqlServer.xml
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\System.Web.Helpers.xml
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\System.Web.Mvc.xml
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\System.Web.Optimization.xml
@@ -80,8 +84,4 @@ C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\o
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\obj\Debug\MvcCharting.csproj.CopyComplete
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\obj\Debug\MvcCharting.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\obj\Debug\MvcCharting.pdb
-C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\EntityFramework.dll
-C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\EntityFramework.SqlServer.dll
-C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\EntityFramework.xml
-C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\bin\EntityFramework.SqlServer.xml
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter5\MvcCharting\MvcCharting\obj\Debug\MvcCharting.csprojAssemblyReference.cache

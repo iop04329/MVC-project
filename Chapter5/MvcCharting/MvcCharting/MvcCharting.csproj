@@ -127,10 +127,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ChartsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Location.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -148,12 +150,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HtmlPages\BarTravel.html" />
     <Content Include="HtmlPages\LineStyle.html" />
     <Content Include="HtmlPages\LineBasic.html" />
     <Content Include="HtmlPages\LineFill.html" />
+    <Content Include="HtmlPages\PieDoughnut.html" />
     <Content Include="HtmlPages\PointStyle.html" />
+    <Content Include="HtmlPages\RadarManagement.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="App_Code\ChartHelpers.cshtml" />
+    <Content Include="App_Code\MyFunctions.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\Chart.js" />
     <Content Include="Scripts\Chart.min.js" />
@@ -181,11 +188,19 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Charts\LineTemperature.cshtml" />
+    <Content Include="Views\Charts\LineTemperatureData.cshtml" />
+    <Content Include="Views\Charts\BarTravel.cshtml" />
+    <Content Include="Views\Charts\RadarCar.cshtml" />
+    <Content Include="Views\Charts\RadarCarData.cshtml" />
+    <Content Include="Views\Charts\PieSales.cshtml" />
+    <Content Include="Views\Charts\PieSalesData.cshtml" />
+    <Content Include="Views\Charts\BarTravelData.cshtml" />
+    <Content Include="Views\Shared\_LayoutChart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Assets\images\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

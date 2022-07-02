@@ -28,8 +28,8 @@ namespace MvcCharting
             //將Chart.js 加入Bundles
             //bundles.Add(new ScriptBundle("~/bundles/chart.js").Include("~/Scripts/Chart.min.js"));
             bundles.Add(new ScriptBundle("~/bundles/chartjs").Include(
-          "~/Scripts/Chart.min.js",
-          "~/Assets/js/Colors.js"));
+                    "~/Scripts/Chart.min.js",
+                    "~/Assets/js/Colors.js"));
         }
     }
 }
