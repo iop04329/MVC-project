@@ -92,5 +92,40 @@ namespace Chapter7.Controllers
 
             return View(emp);
         }
+        public ActionResult Delete(int? Id)
+        {
+            //檢查是否有員工Id
+            if (Id == null)
+            {
+                return Content("查無此資料, 請提供員工編號!");
+            }
+            //以Id找尋員工資料
+            Employee emp = db.Employees.Find(Id);
+            //如果沒有找到員工，回傳HttpNotFound
+            if (emp == null)
+            {
+                return HttpNotFound();
+            }
+
+            return View(emp);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int Id)
+        {
+            //以Id找尋Entity，然後刪除
+            Employee emp = db.Employees.Find(Id);
+            db.Employees.Remove(emp);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+            base.Dispose(disposing);
+        }
     }
 }
