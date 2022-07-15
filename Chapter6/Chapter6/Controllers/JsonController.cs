@@ -52,5 +52,15 @@ namespace Chapter6.Controllers
 
             return View(Locations);
         }
+
+        public ActionResult TemperatureAjaxJSON()
+        {
+            return View();
+        }
+
+        public ActionResult CarSalesAjaxJSON()
+        {
+            return View();
+        }
     }
 }
