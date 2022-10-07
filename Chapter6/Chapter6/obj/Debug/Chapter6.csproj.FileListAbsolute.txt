@@ -86,3 +86,4 @@ C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\Chapter6\bin\System.Web.H
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\Chapter6\bin\System.Net.Http.Formatting.xml
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\Chapter6\bin\System.Web.Http.xml
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\Chapter6\bin\System.Web.Http.WebHost.xml
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\Chapter6\obj\Debug\Chapter6.csproj.AssemblyReference.cache

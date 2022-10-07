@@ -1,4 +1,3 @@
-C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\webapiservice\WebApiService\WebApiService\obj\Debug\WebApiService.csprojAssemblyReference.cache
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\webapiservice\WebApiService\WebApiService\obj\Debug\WebApiService.csproj.CoreCompileInputs.cache
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\webapiservice\WebApiService\WebApiService\bin\WebApiService.dll.config
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\webapiservice\WebApiService\WebApiService\bin\WebApiService.dll
@@ -90,3 +89,4 @@ C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\webapiservice\WebApiServi
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\webapiservice\WebApiService\WebApiService\obj\Debug\WebApiService.csproj.CopyComplete
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\webapiservice\WebApiService\WebApiService\obj\Debug\WebApiService.dll
 C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\webapiservice\WebApiService\WebApiService\obj\Debug\WebApiService.pdb
+C:\Users\tsai\Desktop\GitHub\Tsai\MVC-project\Chapter6\webapiservice\WebApiService\WebApiService\obj\Debug\WebApiService.csproj.AssemblyReference.cache
